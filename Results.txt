@@ -1,0 +1,85 @@
+#1rows
+#2cols
+#3groups
+
+(matrix rows * matrix cols) * (vector_len)
+
+
+3x3x3 
+#1: 0.000012 seconds
+#2: 0.000014 seconds
+#3: 0.000034 seconds
+
+ 
+30x30x30
+#1:  0.000013 seconds
+#2:  0.000015 seconds
+#3:  0.000037 seconds
+
+100x100x100
+#1: 0.000055 seconds
+#2: 0.000037 seconds
+#3: 0.000079 seconds
+
+300x300x300
+#1: 0.000303 seconds
+#2: 0.000236 seconds
+#3: 0.000463 seconds
+
+
+#1 rows
+
+1x5x1
+1: 0.000012 seconds
+
+1x100x1
+1:0.000015 seconds
+
+5x1x5
+1:0.000012 seconds
+
+100x1x100
+1:0.000012 seconds
+
+
+
+#2 cols
+
+1x5x5
+2:0.000010 seconds
+
+1x100x100
+2:0.000011 seconds
+
+5x1x1:
+2:0.000011 seconds
+
+100x1x1:
+2:0.000012 seconds
+
+
+
+
+
+##2
+
+4x4 * 4x4
+
+Run1: 0.003408 seconds
+Run2: 0.000074 seconds
+Run3: 0.011376 seconds
+Run4: 0.000060 seconds
+
+5x5 * 5x5
+
+Run1: 0.002917 seconds
+Run2: 0.000542 seconds
+Run3: 0.000677 seconds
+Run4: 0.000838 seconds
+
+50x50 * 50x50
+
+Run1: 0.140523 seconds
+Run2: 0.230454 seconds
+Run3: 0.002322 seconds
+Run4: 0.000082 seconds
